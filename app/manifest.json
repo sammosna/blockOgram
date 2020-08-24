@@ -1,0 +1,27 @@
+{
+  "name": "blockOGram",
+  "description": "Telegram Web App in the Blockstack.\nMore info & source code here: https://github.com/marcojrfurtado/blockogram",
+  "start_url": "blockogram.com",
+  "version": "0.1.0",
+  "short_name": "blockOGram",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["js/background.js"]
+    }
+  },
+  "permissions": [
+    "notifications",
+    "webview",
+    {"fileSystem": ["write"]},
+    "storage",
+    "unlimitedStorage",
+    "fullscreen"
+  ],
+  "gcm_sender_id": "122867383838",
+  "icons": [{
+    "src": "https://blockogram.com/img/icons/icon192.png",
+    "sizes": "192x192",
+    "type": "i192x192"
+  }]
+}
